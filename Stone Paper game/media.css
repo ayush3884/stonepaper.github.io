@@ -1,0 +1,14 @@
+@media only screen and (min-width:100px) and (max-width:575px) {
+    #Rock{
+        background-color: red;
+    }
+    #Result{
+       
+        font-size: 20px;
+    }
+    *{
+        
+        /* font-family:sans-serif; */
+        font-family:serif !important;
+    }
+}

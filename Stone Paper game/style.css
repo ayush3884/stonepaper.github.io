@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+h6{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+body{
+    background-color: #f1f1f1;
+}
+p{
+    background-color: #03346e;
+    display: flex;
+    justify-content: space-evenly;
+    color: #e2e2b6;
+    font-size: 30px;
+    font-weight: 700;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+}
+button{
+    padding: 20px;
+    margin: 0 10px;
+    font-size: 3rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 6px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+#Rock{
+    background-color: red;
+}
+#Paper{
+    background-color: #2196f3;
+}
+#Scissor{
+    background-color: #4caf50;
+}
+button:hover{
+    opacity: 0.8;
+}
+#Result{
+    background-color: #021526;
+    color: #e2e2b6;
+    padding: 10px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    font-size: 35px;
+}
+#user-score{
+    color: yellow;
+}
+#com-score{
+    color: red;
+}
